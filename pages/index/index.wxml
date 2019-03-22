@@ -1,0 +1,125 @@
+<!-- 搜索框 -->
+<view class='home'>
+  <!-- 轮播图部分 -->
+  <view class='banner'>
+    <swiper indicator-dots="true" indicator-color="#fff" indicator-active-color="#37A6E0">
+      <swiper-item>
+        <image src="../../assets/images/bg1.jpg" />
+      </swiper-item>
+      <swiper-item>
+        <image src="../../assets/images/bg2.jpg" />
+      </swiper-item>
+      <swiper-item>
+        <image src="../../assets/images/bg3.jpg" />
+      </swiper-item>
+    </swiper>
+    <!-- 搜索按钮部分 -->
+    <view class="search">
+      <input></input>
+      <text>搜索</text>
+    </view>
+  </view>
+  <!-- 导航部分 -->
+  <view class='nav'>
+    <view class='nav-list'>
+      <image src='../../assets/images/zhibo.png'></image>
+      <text>直播</text>
+    </view>
+    <view class='nav-list'>
+      <image src='../../assets/images/shop.png'></image>
+      <text>商城</text>
+    </view>
+    <view class='nav-list'>
+      <image src='../../assets/images/vedio.png'></image>
+      <text>视频</text>
+    </view>
+    <view class='nav-list'>
+      <image src='../../assets/images/game.png'></image>
+      <text>游戏</text>
+    </view>
+    <view class='nav-list'>
+      <image src='../../assets/images/zixun.png'></image>
+      <text>资讯</text>
+    </view>
+    <view class='nav-list'>
+      <image src='../../assets/images/hangqing.png'></image>
+      <text>行情</text>
+    </view>
+    <view class='nav-list'>
+      <image src='../../assets/images/luntan.png'></image>
+      <text>论坛</text>
+    </view>
+    <view class='nav-list'>
+      <image src='../../assets/images/wenda.png'></image>
+      <text>问答</text>
+    </view>
+  </view>
+  <!-- 热门商品 -->
+  <view class='hot-product'>
+    <view class='title'>
+      <view class="tuijian">
+        <image src="../../assets/images/hot.png" />
+        热门推荐
+      </view>
+      <view class="more">
+        更多
+        <image src="../../assets/images/more.png" />
+      </view>
+    </view>
+  </view>
+  <!-- 推荐内容部分 -->
+  <view class='contain'>
+    <view class='contain-list'>
+      <view class="img">
+        <image src="../../assets/images/pd3.jpg"></image>
+      </view>
+      <text class="them-title">今天播点好玩的哦！</text>
+      <view class="info">
+        <text class="name">小主播儿</text>
+        <view class="hot">
+          <image src="../../assets/images/hot.png"></image>
+          热度:30w
+        </view>
+      </view>
+    </view>
+    <view class='contain-list'>
+      <view class="img">
+        <image src="../../assets/images/pd1.jpg"></image>
+      </view>
+      <text class="them-title">今天播点好玩的哦！</text>
+      <view class="info">
+        <text class="name">小主播儿</text>
+        <view class="hot">
+          <image src="../../assets/images/hot.png"></image>
+          热度:30w
+        </view>
+      </view>
+    </view>
+    <view class='contain-list'>
+      <view class="img">
+        <image src="../../assets/images/pd3.jpg"></image>
+      </view>
+      <text class="them-title">今天播点好玩的哦！</text>
+      <view class="info">
+        <text class="name">小主播儿</text>
+        <view class="hot">
+          <image src="../../assets/images/hot.png"></image>
+          热度:30w
+        </view>
+      </view>
+    </view>
+    <view class='contain-list'>
+      <view class="img">
+        <image src="../../assets/images/pd2.jpg"></image>
+      </view>
+      <text class="them-title">今天播点好玩的哦！</text>
+      <view class="info">
+        <text class="name">小主播儿</text>
+        <view class="hot">
+          <image src="../../assets/images/hot.png"></image>
+          热度:30w
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
