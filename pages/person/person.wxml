@@ -1,1 +1,56 @@
-<text>个人中心</text>
+<view class='person'>
+  <!-- 头部 -->
+  <view class='header'>
+    <!-- 头像部分 及介绍 -->
+    <view class='header-container'>
+      <image src='../../assets/images/avatar.png'></image>
+      <text class='username'>龙风</text>
+      <text class='sign'>我希望我是一个乐观的前端开发者</text>
+      <view class='info'>
+        <view>
+          <image src='../../assets/images/guanzhu-dianji.png' />关注28</view>
+        <view>
+          <image src='../../assets/images/fensi.png' />粉丝39w</view>
+      </view>
+    </view>
+  </view>
+  <!-- 分组 -->
+  <view class='groun-list'>
+    <navigator>
+      <view>
+        <image src='../../assets/set/message.png'> </image>我的消息
+      </view>
+      <image src='../../assets/images/more.png'></image>
+    </navigator>
+    <navigator>
+      <view>
+        <image src='../../assets/set/huiyuanzhongxin.png'> </image>会员中心
+      </view>
+      <image src='../../assets/images/more.png'></image>
+    </navigator>
+    <navigator>
+      <view>
+        <image src='../../assets/set/chongzhijilu-icon.png'> </image>充值记录
+      </view>
+      <image src='../../assets/images/more.png'></image>
+    </navigator>
+    <navigator>
+      <view>
+        <image src='../../assets/set/youhuiquan.png'> </image>优惠券
+      </view>
+      <image src='../../assets/images/more.png'></image>
+    </navigator>
+    <navigator>
+      <view>
+        <image src='../../assets/set/wode-shoucang.png'> </image>我的收藏
+      </view>
+      <image src='../../assets/images/more.png'></image>
+    </navigator>
+    <navigator>
+      <view>
+        <image src='../../assets/set/shezhi.png'> </image>设置
+      </view>
+      <image src='../../assets/images/more.png'></image>
+    </navigator>
+  </view>
+</view>
