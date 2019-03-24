@@ -1,1 +1,4 @@
-<text>发现</text>
+<!-- 地图定位 -->
+<view class='map-container'>
+  <map id="myMap" longitude="{{ longitude }}" latitude="{{ latitude}}" controls="{{controls}}" markers="{{markers}}" show-location scale="14" controls="{{controls}}" bindcontroltap="controltap" class='map'></map>
+</view>

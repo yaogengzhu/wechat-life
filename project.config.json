@@ -39,9 +39,10 @@
 			"current": 0,
 			"list": [
 				{
-					"id": -1,
-					"name": "person",
-					"pathName": "pages/person/person",
+					"id": 0,
+					"name": "map",
+					"pathName": "pages/find/find",
+					"query": "",
 					"scene": null
 				}
 			]
